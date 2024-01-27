@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook_clone</title>
+    <link rel="stylesheet" href="clone.css">
+    <script src="https://kit.fontawesome.com/bb1d8d3e8b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+
+        <div class="nav-left">
+                <a href="clone.html"><img src="images/l.jpg" class="logo"></a>
+                <ul>
+                    <li><img src="images/notification.png"></li>
+                    <li><img src="images/inbox.png"></li>
+                    <li><img src="images/video.png"></li>
+                </ul>
+        </div>
+        
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/babu.jpg">
+            </div>
+        </div>
+        <!-- settings menu -->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/babu.jpg">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!--               CONTAINER              -->
+
+    <div class="container">
+        <!--             LEFT - SIDEBAR                          -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png"> Latest news</a>
+                <a href="#"><img src="images/friends.png"> Friends</a>
+                <a href="#"><img src="images/group.png"> Group</a>
+                <a href="#"><img src="images/marketplace.png"> Marketplace</a>
+                <a href="#"><img src="images/watch.png"> Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png">Python Development</a>
+                <a href="#"><img src="images/shortcut-2.png">Front End Developer</a>
+                <a href="#"><img src="images/shortcut-3.png">Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png">JavaScript Development</a>
+            </div>
+        </div>
+
+        <!--             MAIN-CONTENT                         -->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/kalyan.jpg">
+                    <p>Kalyan</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/ravi.jpg">
+                    <p>Ravindra</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/deepu.jpg">
+                    <p>Deepu</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/raju.jpg">
+                    <p>Raju</p>
+                </div>
+            </div>
+            <!-- posts -->
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/babu.jpg">
+                    <div>
+                        <p>Yesu Babu</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind,Babu?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png"> Live Video</a>
+                        <a href="#"><img src="images/photo.png"> Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png"> Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/babu.jpg">
+                        <div>
+                            <p>Yesu Babu</p>
+                            <span>December 22 2023, 12:20 pm </span>
+                        </div>
+                        
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                
+                    <p class="post-text"> <a href="#">#NewYearVibes</a>
+                    <p class="post-text">Gratitude-filled Monday! ☀️ Today, I'm counting my blessings and embracing the joy in every moment.
+                         🌈 From simple pleasures to meaningful connections, life is a beautiful journey. <a href="#">#Friends</a>
+                        <a href="#">#newYearCelebrations</a>
+                    </p>
+                    <img src="images/post1.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">120k</div>
+                            <div><img src="images/comments.png">2.03k</div>
+                            <div><img src="images/share.png">120</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/babu.jpg"> <i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                    </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/raju.jpg">
+                        <div>
+                            <p>Raju Royal</p>
+                            <span>December 25 2023, 12:00 AM </span>
+                        </div>
+                        
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                
+                    <p class="post-text">Wishing you all a Christmas Eve filled with love, laughter,
+                         and the wonder of the season. 🎄❤️  <a href="#">#ChristmasEveMagic</a>
+                        <a href="#">#FestiveJoy #WarmWishes</a>
+                    </p>
+                    <img src="images/post4.jpg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">620k</div>
+                            <div><img src="images/comments.png">45k</div>
+                            <div><img src="images/share.png">125k</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/babu.jpg"> <i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                    </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/kalyan.jpg">
+                        <div>
+                            <p>kalyan Boddu</p>
+                            <span>November 20 2023, 11:20 AM</span>
+                        </div>
+                        
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                
+                    <p class="post-text">Embrace the challenges, savor the victories,
+                         and dance through the rhythm of existence.  <a href="#">#LifeIsAnAdventure</a>
+                        <a href="#">#CherishTheMoments</a>
+                    </p>
+                    <img src="images/post3.jpg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png">25k</div>
+                            <div><img src="images/comments.png">2k</div>
+                            <div><img src="images/share.png">20k</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/babu.jpg"> <i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                    </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/ravi.jpg">
+                        <div>
+                            <p>Ravindra Talari</p>
+                            <span>August 23 2023, 4:30 PM </span>
+                        </div>
+                        
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                
+                    <p class="post-text">Sometimes, loneliness is not a burden, but a canvas where 
+                        the colors of resilience and introspection beautifully blend. 🌌  <a href="#">#LonelyButNotAlone</a>
+                        <a href="#">#EmbracingSolitude</a>
+                    </p>
+                    <img src="images/post2.jpg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">2.03M</div>
+                            <div><img src="images/comments.png">120k</div>
+                            <div><img src="images/share.png">1.42M</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/babu.jpg"> <i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                    </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/deepu.jpg">
+                        <div>
+                            <p>Deepu Danger</p>
+                            <span>December 31 2023, 11:50 PM</span>
+                        </div>
+                        
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                
+                    <p class="post-text">Grateful for the incredible friends who light up my life! 🌟
+                         Whether it's laughter, support, or adventures, these amazing souls bring so much joy.
+                          Tag your ride-or-die friends and let them know how much they mean to you! 🤗💖  <a href="#">#friendshipGoals</a>
+                        <a href="#">#BlessedWithTheBest</a>
+                    </p>
+                    <img src="images/post5.jpg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">4.56M</div>
+                            <div><img src="images/comments.png">220k</div>
+                            <div><img src="images/share.png">2.35M</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/babu.jpg"> <i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                    </div>
+            </div>
+            <button type="button" class="load-more-btn"> Load More</button>
+        </div>
+
+        <!--             RIGHT - SIDEBAR                          -->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>25</h3>
+                    <span>December</span>
+                </div>
+            
+                <div class="right-event">
+                    <h4>Christmas Eve</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Hyderabad</p>
+                    <a href="#">more Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>01</h3>
+                    <span>January</span>
+                </div>
+            
+                <div class="right-event">
+                    <h4>New Year Celebrations </h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Vizag</p>
+                    <a href="#">more Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/adds.webp" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/kalyan.jpg">
+                </div>
+                <p>Kalyan Boddu</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/ravi.jpg">
+                </div>
+                <p>Ravindra Talari</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/shiva.jpg">
+                </div>
+                <p>Shiva Elijala</p>
+            </div>
+    </div>
+    </div>
+
+    <!-- copiright -->
+    <div class="footer">Copyright 2021 - Easy Tutorials Youtube Channel</div>
+    
+</body>
+<script src="clone.js"></script>
+</html>
